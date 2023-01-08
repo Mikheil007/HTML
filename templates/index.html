@@ -1,31 +1,66 @@
 <!DOCTYPE html>
-<html lang="en and ru">
+<html lang="en and ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/style2.css">
+    <link rel="stylesheet" href="/static/css/style3.css">
+
     {% block head %}
     <title>Motorcycles</title>
+<!--    <link rel="stylesheet" href="static/css/style.css">-->
     {% endblock %}
-</head>
-<body>
-    <header>
 
+
+
+</head>
+
+    <header>
+        <ul>
+            <li class="main0"><a href="/">ДОМАШНЯЯ СТРАНИЦА</a></li>
+            <li class="main0"><a href="/honda">HONDA</a></li>
+            <li class="main0"><a href="/kawasaki">KAWASAKI</a></li>
+        </ul>
+        
     </header>
-    <main>
         {% block content %}
-<h1>"Данный сайт, создан исключительно в учебных целях."</h1>
-        <h2>"Ниже представлены мотоциклы марки BMW"</h2>
-        <h3>Ниже представлены следующие модели:</h3>
+<body class="index">
+<main>
+    <input class="clock" type="date">
+
+    </div>
+    <h1><big>"Данный сайт, создан исключительно в учебных целях."</big></h1>
+        <h2 class="bmw">В данном разделе, представлены мотоциклы фирмы "BMW":</h2>
+        <h3>Далее по списку:</h3>
+    <div class="block">
         <ol>
-            <li><h2>BMW R1200R</h2></li>
-            <li><h2>BMW S1000RR</h2></li>
-            <li><h2>BMW R1300R</h2></li>
+
+            <li><a href="https://omoimot.ru/catalog/BMW/R1200GS/2013"><h4 class="logo">BMW R1200R</h4></a></li>
+            <li><a href="https://omoimot.ru/catalog/BMW/S1000RR/2017"><h4 class="logo">BMW S1000RR</h4></a></li>
+            <li><a href="https://omoimot.ru/catalog/BMW/K1300R/2009"><h4 class="logo">BMW R1300R</h4></a></li>
+
         </ol>
-        <img src="/static/images/bmw-r-1200-r-foto-1.png" alt="BMWR1200" width="300" height="400">
-        <img src="/static/images/bmw-s-1000-rr-foto-4.png" alt="BMWS1000RR" width="300" height="400">
-        <img src="/static/images/bmw-r-1200-r-foto-2.png" alt="BMWR1300R" width="300" height="400">
-        <a href="/honda"><h1>В данном разделе, представлены мотоциклы фирмы HONDA</h1></a>
+    </div>
+    <figure>
+        <a href="https://omoimot.ru/catalog/BMW/R1200GS/2013"><img src="/static/images/bmw-r-1200-r-foto-1.png" alt="BMWR1200" width="350" height="350"></a>
+
+        <a href="https://omoimot.ru/catalog/BMW/S1000RR/2017"><img src="/static/images/bmw-s-1000-rr-foto-4.png" alt="BMWS1000RR" width="350" height="350"></a>
+
+        <a href="https://omoimot.ru/catalog/BMW/K1300R/2009"><img src="/static/images/bmw-r-1200-r-foto-2.png" alt="BMWR1300R" width="350" height="350"></a>
+        <figcaption>This is bike BMW</figcaption>
+    </figure>
+<p>Учебный образец!</p>
+<p>
+    <ul id="mik">
+        <li>hello</li>
+        <li>hi</li>
+        <li>morning</li>
+        <li>goodhearted</li>
+    </ul>
+
+
     {% endblock %}
     </main>
     <footer>

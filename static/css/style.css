@@ -1,0 +1,61 @@
+h1 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+h2 {
+color: black;
+    background-color: #301fed41;
+    width: 700px;
+    height: 30px;
+}
+
+li {
+    color: black;
+}
+
+html {
+    background-color: hsla(hue, saturation, lightness, alpha);
+    }
+
+p {
+    color: rgb(151, 41, 41);
+}
+
+h4 {
+    color: rgb(0, 2, 144);
+    background-image: transparent;
+    width: 130px;
+    border: 5px rgba(227, 108, 5, 0.549) groove;
+    border-radius:10px 10px 10px;
+}
+
+.logo {
+    background-image: url(/static/images/images.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 110px;
+    background-image: transparent;
+    background-size: 15px;
+    }
+.logo1 {
+    background-image: url(/static/images/honda.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 150px;
+    background-size: contain;
+    }
+
+    .block {
+        width: 10%;
+        height: 10%;
+        margin: inherit;
+        text-align: left;
+    }
+    .block a{
+        color: #00f;  
+        width: 10%;
+        background: #ccc;
+        text-decoration: double;
+}

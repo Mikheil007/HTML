@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-image: url(/static/images/backbmw.jpeg);
+    background-size: 110%;
+    background-attachment: fixed;
+    
+}
+
+    header {
+    height: 60px;
+    background-color: #656565c5;
+    display: flex;
+    opacity: 0.7;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+}
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: start;
+}
+
+    header li a {
+    color: #023434;
+    padding: 22px;
+    }
+    
+    header li a:hover {
+    background-color: #D2691E
+}
+
+table {
+font-size: 20px;
+border: double 5px;
+}
+
+html a{
+    text-decoration: none;
+}

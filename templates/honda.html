@@ -1,30 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<header>
-    <h1>В данном разделе, представлены мотоциклы фирмы HONDA</h1>
-    <h2>Далее по списку:</h2>
+{% extends 'index.html' %}
+{% block head %}
+    <title>Motorcycles</title>
+<!--<link rel="stylesheet" href="/static/css/style.css">-->
+{% endblock %}
+
+{% block content %}
+<h1 class="honda1"><blink>В данном разделе, представлены мотоциклы фирмы "HONDA":</blink></h1>
+    <h2 class="honda">Далее по списку:</h2>
+    <div class="block">
     <ol>
-        <li><h3>HONDA CBR650F</h3></li>
-        <li><h3>HONDA CBR900RR</h3></li>
-        <li><h3>HONDA POLICE</h3></li>
+        <li><a href="https://bikeswiki.ru/Honda_CBR650F"><h4 class="logo1">HONDA CBR650F</h4></a></li>
+        <li><a href="https://bikeswiki.ru/Honda_CBR900RR_Fireblade"><h4 class="logo1">HONDA CBR900RR</h4></a></li>
+        <li><a href="https://hondapolice.com"><h4 class="logo1">HONDA POLICE</h4></a></li>
     </ol>
-    <img src="/static/images/HONDA CBR650F.png" alt="" width="400" height="400">
-    <img src="/static/images/HONDA CBR900RR.png" alt="" width="400" height="400">
-    <img src="/static/images/HONDA POLICE.png" alt="" width="400" height="400">
-    <a href="/teo"><h1>Вернутся на главную страницу</h1></a>
-</header>
-<main>
+    </div>
+    <a href="https://bikeswiki.ru/Honda_CBR650F"><img src="/static/images/HONDA CBR650F.png" alt="" width="350" height="350"></a>
 
-</main>
-<footer>
+    <a href="https://bikeswiki.ru/Honda_CBR900RR_Fireblade"><img src="/static/images/HONDA CBR900RR.png" alt="" width="350" height="350"></a>
 
-</footer>
-</body>
-</html>
+    <a href="https://hondapolice.com"><img src="/static/images/HONDA POLICE.png" alt="" width="350" height="350"></a>
+<p>Учебный образец!</p>
+    <table>
+        <tr>
+            <th>Наименование</th>
+            <th>Описание(техн.данные)</th>
+            <th>Цена</th>
+            <th>Ссылка на производителя</th>
+        </tr>
+        <tr>
+            <td>Honda</td>
+            <td>1200r</td>
+            <td>3000$</td>
+            <td><a href="https://bikeswiki.ru/Honda_CBR650F">HONDA CBR650F</a></td>
+        </tr>
+        <tr>
+            <td>Honda2</td>
+            <td>2200r</td>
+            <td>4000$</td>
+            <td><a href="https://bikeswiki.ru/Honda_CBR900RR_Fireblade">HONDA CBR900RR</a></td>
+        </tr>
+        <tr>
+            <td>Honda3</td>
+            <td>3200r</td>
+            <td>5000$</td>
+            <td><a href="https://hondapolice.com">HONDA POLICE</a></td>
+        </tr>
+    </table>
+    
+{% endblock %}
