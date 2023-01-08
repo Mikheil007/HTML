@@ -1,0 +1,63 @@
+input {
+color: rgb(0, 2, 10);
+padding: 8px;
+font-size: 14px;
+border-color: Spx rgb(250, 180, 3) outset;
+border-radius: 16px 16px 16px;
+border: double 4px;
+background-color: rgba(43, 64, 145, 0.456);
+animation: reverse;
+}
+
+.svetofor div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: double 10px;
+}
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+.box1 {
+    background-color: rgb(200, 106, 106);
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: rgb(83, 136, 172);
+    margin: 10px;
+}
+
+.clock {
+    margin-top: 80px;
+}
+
+.honda1 {
+    margin-top: 80px;
+}
+
+.kawas {
+    margin-top: 80px;
+}
+
+.box {
+    box-sizing: border-box;
+}
